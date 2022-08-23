@@ -1,0 +1,28 @@
+{
+  "name": "@milashensky/eslint-config",
+  "version": "1.0.0",
+  "description": "My preferable eslint config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milashensky/eslint-config.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "airbnb",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.13.8",
+    "@babel/eslint-parser": "7.13.8",
+    "eslint": "7.21.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-vue": "7.7.0"
+  }
+}
