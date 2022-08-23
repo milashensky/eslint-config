@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   extends: [
     'eslint-config-airbnb-base',
     './rules.js',
@@ -9,7 +9,6 @@ export default {
     node: true,
     es6: true,
   },
-  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
