@@ -37,5 +37,15 @@ module.exports = {
     ],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent'],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        'js': 'never',
+        'jsx': 'never',
+        'ts': 'never',
+        'tsx': 'never',
+      },
+    ],
   },
 };
