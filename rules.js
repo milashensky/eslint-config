@@ -2,14 +2,12 @@ module.exports = {
   rules: {
     'indent': [
       'error',
-      2,
+      4,
     ],
+    'semi': ['error', 'never'],
+    'arrow-parens': ['error', 'always'],
     'no-alert': 0,
     'radix': ['error', 'as-needed'],
-    'arrow-parens': [
-      'error',
-      'as-needed',
-    ],
     'import/prefer-default-export': ['warn'],
     'max-len': [
       'error',
